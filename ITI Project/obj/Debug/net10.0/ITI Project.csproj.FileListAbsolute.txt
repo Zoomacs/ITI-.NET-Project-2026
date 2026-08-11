@@ -1,0 +1,98 @@
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\appsettings.Development.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\appsettings.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.staticwebassets.runtime.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.staticwebassets.endpoints.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.exe
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.deps.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.runtimeconfig.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.dll
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.pdb
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\rpswa.dswa.cache.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.AssemblyInfoInputs.cache
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.AssemblyInfo.cs
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.csproj.CoreCompileInputs.cache
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.RazorAssemblyInfo.cache
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.RazorAssemblyInfo.cs
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.sourcelink.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\rjimswa.dswa.cache.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\scopedcss\bundle\ITI Project.styles.css
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\scopedcss\projectbundle\ITI Project.bundle.scp.css
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\oakes5z6yt-{0}-b9sayid5wm-b9sayid5wm.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\dv093cgqtx-{0}-61n19gt1b8-61n19gt1b8.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\7ktas1f2n0-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\slz285gtoh-{0}-t1cqhe9u97-t1cqhe9u97.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\n6wfmqk2ni-{0}-c2jlpeoesf-c2jlpeoesf.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\1li0ksc9jm-{0}-sejl45xvog-sejl45xvog.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\bksvynbboc-{0}-aexeepp0ev-aexeepp0ev.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\rd33ef1h6c-{0}-xvp3kq03qx-xvp3kq03qx.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\tlddbr7zoe-{0}-ausgxo2sd3-ausgxo2sd3.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\3nzcwo97cv-{0}-22vffe00uq-22vffe00uq.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\fwl60tmgmi-{0}-cosvhxvwiu-cosvhxvwiu.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\icx2lk3duq-{0}-qesaa3a1fm-qesaa3a1fm.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\aop4lo9jdz-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\7x2oqt6uow-{0}-tmc1g35s3z-tmc1g35s3z.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\g0hnu8t0fr-{0}-fsbi9cje9m-fsbi9cje9m.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\t29t5voqb6-{0}-rxsg74s51o-rxsg74s51o.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\2p2v4ikf5d-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\i0yhqrurkj-{0}-q9ht133ko3-q9ht133ko3.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\k4jyuonq6z-{0}-jd9uben2k1-jd9uben2k1.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\5tcxghypa7-{0}-gye83jo8yx-gye83jo8yx.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\woyy45a0mg-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\kz98hqhlyn-{0}-wl58j5mj3v-wl58j5mj3v.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\u4fnvigqp2-{0}-c2oey78nd0-c2oey78nd0.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\8ltny92z8e-{0}-d4r6k3f320-d4r6k3f320.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\eyvkei0a7c-{0}-j5mq2jizvt-j5mq2jizvt.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\siyp47d0yc-{0}-keugtjm085-keugtjm085.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\ds6lkojonk-{0}-nvvlpmu67g-nvvlpmu67g.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\yivfdsdzkm-{0}-zub09dkrxp-zub09dkrxp.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\16v71xopp6-{0}-pj5nd1wqec-pj5nd1wqec.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\cg3pmz4lr4-{0}-43atpzeawx-43atpzeawx.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\f4y7wxcn80-{0}-v0zj4ognzu-v0zj4ognzu.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\y54fg3h1fs-{0}-ynyaa8k90p-ynyaa8k90p.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\sbs8sbpl1l-{0}-hrwsygsryq-hrwsygsryq.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\7pc8b1p2wk-{0}-c63t5i9ira-c63t5i9ira.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\ox1ec8px0x-{0}-ft3s53vfgj-ft3s53vfgj.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\9fa83bh1ta-{0}-4094rpi4f9-4094rpi4f9.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\bb07emflf3-{0}-6pdc2jztkx-6pdc2jztkx.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\gzzwt2qgv6-{0}-hd3gran6i8-hd3gran6i8.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\dsoy9907wh-{0}-iovd86k7lj-iovd86k7lj.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\14eufkdudq-{0}-ltid2c489k-ltid2c489k.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\sj7w725zql-{0}-kbrnm935zg-kbrnm935zg.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\5dbz3f455r-{0}-8vyfqsqgz1-8vyfqsqgz1.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\v3hyz12fkh-{0}-y7v9cxd14o-y7v9cxd14o.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\yyr3qbt6h9-{0}-u9q1upor1n-u9q1upor1n.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\gsayxwsr0i-{0}-h1s4sie4z3-h1s4sie4z3.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\1y6gks3oyb-{0}-4d85u1mtcx-4d85u1mtcx.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\6tz0fqbzj5-{0}-0j3bgjxly4-0j3bgjxly4.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\d0mh9s2znp-{0}-03hjc8e09r-03hjc8e09r.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\4cey6tozqn-{0}-48y08845bh-48y08845bh.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\xd88203lxx-{0}-356vix0kms-356vix0kms.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\7ap9lvvjnu-{0}-83jwlth58m-83jwlth58m.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\vyl84bfg1l-{0}-mrlpezrjn3-mrlpezrjn3.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\vnol77zrev-{0}-worgj0nhwm-worgj0nhwm.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\fda2exv6yd-{0}-gk0pw8i4co-gk0pw8i4co.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\tqwfy3iws8-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\gmy3ln7siq-{0}-d6nrnj6jjx-d6nrnj6jjx.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\y8wehzyk09-{0}-m9qm4tazc0-m9qm4tazc0.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\77a24cdunk-{0}-ttgo8qnofa-ttgo8qnofa.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\oomnbm0mde-{0}-jjsuc0puko-jjsuc0puko.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\oam9gzqg57-{0}-9vr69e8ynj-9vr69e8ynj.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\3ja5m3n751-{0}-87fc7y1x7t-87fc7y1x7t.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\i7c5c9i2rv-{0}-mlv21k5csn-mlv21k5csn.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\8w807a7xkc-{0}-7b8wb44odl-7b8wb44odl.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\royncwa8td-{0}-7b8wb44odl-7b8wb44odl.gz
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\staticwebassets.build.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\staticwebassets.build.json.cache
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\staticwebassets.development.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\swae.build.ex.cache
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.dll
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\refint\ITI Project.dll
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.pdb
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.genruntimeconfig.cache
+c:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ref\ITI Project.dll

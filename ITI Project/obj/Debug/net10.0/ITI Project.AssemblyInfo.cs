@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITI Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5463b18df69fae74d3e98ba482d724268a5a2512")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITI Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITI Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

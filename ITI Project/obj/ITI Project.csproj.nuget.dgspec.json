@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zoomax\\Documents\\ITI .NET 2026\\Project\\ITI Project\\ITI Project.csproj": {}
+    "c:\\Users\\Zoomax\\Documents\\ITI .NET 2026\\Project\\ITI-.NET-Project-2026\\ITI Project\\ITI Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zoomax\\Documents\\ITI .NET 2026\\Project\\ITI Project\\ITI Project.csproj": {
+    "c:\\Users\\Zoomax\\Documents\\ITI .NET 2026\\Project\\ITI-.NET-Project-2026\\ITI Project\\ITI Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zoomax\\Documents\\ITI .NET 2026\\Project\\ITI Project\\ITI Project.csproj",
+        "projectUniqueName": "c:\\Users\\Zoomax\\Documents\\ITI .NET 2026\\Project\\ITI-.NET-Project-2026\\ITI Project\\ITI Project.csproj",
         "projectName": "ITI Project",
-        "projectPath": "C:\\Users\\Zoomax\\Documents\\ITI .NET 2026\\Project\\ITI Project\\ITI Project.csproj",
+        "projectPath": "c:\\Users\\Zoomax\\Documents\\ITI .NET 2026\\Project\\ITI-.NET-Project-2026\\ITI Project\\ITI Project.csproj",
         "packagesPath": "C:\\Users\\Zoomax\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zoomax\\Documents\\ITI .NET 2026\\Project\\ITI Project\\obj\\",
+        "outputPath": "c:\\Users\\Zoomax\\Documents\\ITI .NET 2026\\Project\\ITI-.NET-Project-2026\\ITI Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
