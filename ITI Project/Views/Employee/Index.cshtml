@@ -1,0 +1,91 @@
+@model IEnumerable<ITI_Project.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<h2>Employees</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">+ Add New Employee</a>
+</p>
+
+<form asp-action="Index" method="get" class="row g-3 mb-4">
+
+    <div class="col-md-4">
+        <label class="form-label">Search (Name or Email)</label>
+        <input type="text" name="searchString" value="@ViewBag.CurrentSearch"
+               class="form-control" placeholder="اكتب الاسم أو الإيميل..." />
+    </div>
+
+    <div class="col-md-3">
+        <label class="form-label">Department</label>
+        <select name="departmentId" class="form-select">
+            <option value="">-- All Departments --</option>
+            @foreach (var dept in (IEnumerable<ITI_Project.Models.Department>)ViewBag.Departments)
+            {
+                <option value="@dept.Id" selected="@(ViewBag.CurrentDepartmentId == dept.Id)">
+                    @dept.Name
+                </option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-3">
+        <label class="form-label">Job Title</label>
+        <select name="jobTitleId" class="form-select">
+            <option value="">-- All Job Titles --</option>
+            @foreach (var job in (IEnumerable<ITI_Project.Models.JobTitle>)ViewBag.JobTitles)
+            {
+                <option value="@job.Id" selected="@(ViewBag.CurrentJobTitleId == job.Id)">
+                    @job.Title
+                </option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-2 d-flex align-items-end">
+        <button type="submit" class="btn btn-outline-primary me-2">Search</button>
+        <a asp-action="Index" class="btn btn-outline-secondary">Reset</a>
+    </div>
+
+</form>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Department</th>
+            <th>Job Title</th>
+            <th>Hire Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Any())
+        {
+            @foreach (var employee in Model)
+            {
+                <tr>
+                    <td>@employee.FullName</td>
+                    <td>@employee.Email</td>
+                    <td>@employee.Department?.Name</td>
+                    <td>@employee.JobTitle?.Title</td>
+                    <td>@employee.HireDate.ToShortDateString()</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@employee.Id" class="btn btn-sm btn-info">Details</a>
+                        <a asp-action="Edit" asp-route-id="@employee.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@employee.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">No employees found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
