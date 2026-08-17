@@ -1,0 +1,22 @@
+@model ITI_Project.Models.JobTitle
+
+@{
+    ViewData["Title"] = "Delete Job Title";
+}
+
+<h1>Delete Job Title</h1>
+
+<h3>Are you sure you want to delete this job title?</h3>
+
+<div class="mb-4">
+    <dl class="row">
+        <dt class="col-sm-3">Job Title</dt>
+        <dd class="col-sm-9">@Model.Title</dd>
+    </dl>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-controller="JobTitle" asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,19 @@
+@model ITI_Project.Models.Department
+
+@{
+    ViewData["Title"] = "Department Details";
+}
+
+<h2>Department Details</h2>
+
+<div class="card" style="max-width: 600px;">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">Department Name</dt>
+            <dd class="col-sm-8">@Model.Name</dd>
+        </dl>
+
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

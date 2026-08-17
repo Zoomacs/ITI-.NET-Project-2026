@@ -1,0 +1,19 @@
+@model ITI_Project.Models.JobTitle
+
+@{
+    ViewData["Title"] = "Job Title Details";
+}
+
+<h2>Job Title Details</h2>
+
+<div class="card" style="max-width: 600px;">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">Job Title</dt>
+            <dd class="col-sm-8">@Model.Title</dd>
+        </dl>
+
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>
