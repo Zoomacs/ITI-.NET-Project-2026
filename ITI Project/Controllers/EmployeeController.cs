@@ -2,16 +2,19 @@ using ITI_Project.Data;
 using ITI_Project.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Hosting;
 
 namespace ITI_Project.Controllers
 {
     public class EmployeeController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IWebHostEnvironment _environment;
 
-        public EmployeeController(AppDbContext context)
+        public EmployeeController(AppDbContext context , IWebHostEnvironment environment)
         {
             _context = context;
+            _environment = environment;
         }
 
         public async Task<IActionResult> Index(string searchString, int? departmentId, int? jobTitleId)
