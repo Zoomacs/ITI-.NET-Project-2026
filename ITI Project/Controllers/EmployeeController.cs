@@ -141,8 +141,7 @@ namespace ITI_Project.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Employee employee)
-        {
+        public async Task<IActionResult> Edit(int id, Employee employee, IFormFile? profileImage)        {
             if (id != employee.Id)
             {
                 return NotFound();
@@ -150,6 +149,25 @@ namespace ITI_Project.Controllers
 
             if (ModelState.IsValid)
             {
+            if (profileImage != null && profileImage.Length > 0)
+{
+    string uploadsFolder = Path.Combine(
+        _environment.WebRootPath,
+        "images",
+        "employees"
+    );
+
+    string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(profileImage.FileName);
+
+    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+    using (var fileStream = new FileStream(filePath, FileMode.Create))
+    {
+        await profileImage.CopyToAsync(fileStream);
+    }
+
+    employee.ProfileImagePath = "/images/employees/" + uniqueFileName;
+}
                 _context.Employees.Update(employee);
                 await _context.SaveChangesAsync();
 
