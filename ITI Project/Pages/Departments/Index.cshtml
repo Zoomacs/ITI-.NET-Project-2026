@@ -1,0 +1,38 @@
+﻿@page
+@model ITI_Project.Pages.Departments.IndexModel
+
+<h1>Departments</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var department in Model.Departments)
+        {
+            <tr>
+                <td>@department.Id</td>
+                <td>@department.Name</td>
+                <td>
+                    <a asp-page="Edit"
+                       asp-route-id="@department.Id">Edit</a> |
+
+                    <a asp-page="Details"
+                       asp-route-id="@department.Id">Details</a> |
+
+                    <a asp-page="Delete"
+                       asp-route-id="@department.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
