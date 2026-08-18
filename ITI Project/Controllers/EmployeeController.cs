@@ -73,8 +73,8 @@ namespace ITI_Project.Controllers
             return View(employee);
         }
 
-        public async Task<IActionResult> Create()
-        {
+       public async Task<IActionResult> Create(Employee employee, IFormFile? profileImage)
+       {
             ViewBag.Departments = await _context.Departments.ToListAsync();
             ViewBag.JobTitles = await _context.JobTitles.ToListAsync();
 
