@@ -107,6 +107,10 @@ namespace ITI_Project.Controllers
 
         employee.ProfileImagePath = "/images/employees/" + uniqueFileName;
     }
+    else
+    {
+        employee.ProfileImagePath = "/images/employees/emp2.svg";
+    }
                 _context.Employees.Add(employee);
                 await _context.SaveChangesAsync();
 
@@ -168,6 +172,47 @@ namespace ITI_Project.Controllers
 
     employee.ProfileImagePath = "/images/employees/" + uniqueFileName;
 }
+else
+{
+    var existingEmployee = await _context.Employees.AsNoTracking().FirstOrDefaultAsync(e => e.Id == id);
+
+    bool isInitialsAvatar = existingEmployee != null
+        && !string.IsNullOrEmpty(existingEmployee.ProfileImagePath)
+        && existingEmployee.ProfileImagePath.StartsWith("/images/employees/")
+        && existingEmployee.ProfileImagePath.EndsWith(".svg");
+
+    if (existingEmployee != null
+        && existingEmployee.FullName != employee.FullName
+        && isInitialsAvatar)
+    {
+        string newImagePath = WriteInitialsSvg(GetInitials(employee.FullName));
+
+        if (!string.IsNullOrEmpty(existingEmployee.ProfileImagePath)
+            && existingEmployee.ProfileImagePath != "/images/employees/emp2.svg")
+        {
+            bool usedElsewhere = await _context.Employees
+                .AnyAsync(e => e.Id != id && e.ProfileImagePath == existingEmployee.ProfileImagePath);
+
+            if (!usedElsewhere)
+            {
+                string oldFullPath = Path.Combine(
+                    _environment.WebRootPath,
+                    existingEmployee.ProfileImagePath.TrimStart('/').Replace('/', Path.DirectorySeparatorChar));
+
+                if (System.IO.File.Exists(oldFullPath))
+                {
+                    System.IO.File.Delete(oldFullPath);
+                }
+            }
+        }
+
+        employee.ProfileImagePath = newImagePath;
+    }
+    else
+    {
+        employee.ProfileImagePath = existingEmployee?.ProfileImagePath;
+    }
+}
                 _context.Employees.Update(employee);
                 await _context.SaveChangesAsync();
 
@@ -213,6 +258,45 @@ namespace ITI_Project.Controllers
             }
 
             return RedirectToAction("Index");
+        }
+
+        private static string GetInitials(string fullName)
+        {
+            var parts = fullName.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+            if (parts.Length >= 2)
+            {
+                return $"{parts[0][0]}{parts[1][0]}".ToUpperInvariant();
+            }
+
+            if (parts.Length == 1)
+            {
+                return parts[0][..Math.Min(2, parts[0].Length)].ToUpperInvariant();
+            }
+
+            return "?";
+        }
+
+        private string WriteInitialsSvg(string initials)
+        {
+            string uploadsFolder = Path.Combine(_environment.WebRootPath, "images", "employees");
+            Directory.CreateDirectory(uploadsFolder);
+
+            string uniqueFileName = "emp" + Guid.NewGuid().ToString("N") + ".svg";
+            string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+            string[] colors = { "#e74a3b", "#36b9cc", "#4e73df", "#1cc88a", "#f6c23e", "#858796" };
+            string color = colors[Random.Shared.Next(colors.Length)];
+
+            string svg =
+                $"<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' width='120' height='120'>\n" +
+                $"  <rect width='120' height='120' fill='{color}'/>\n" +
+                $"  <text x='50%' y='50%' dy='.35em' text-anchor='middle' font-family='Nunito, Segoe UI, Arial, sans-serif' font-size='46' font-weight='700' fill='#ffffff'>{initials}</text>\n" +
+                $"</svg>";
+
+            System.IO.File.WriteAllText(filePath, svg);
+
+            return "/images/employees/" + uniqueFileName;
         }
     }
 }
