@@ -1,5 +1,7 @@
+using System.Linq;
 using ITI_Project.Data;
 using ITI_Project.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,11 +16,20 @@ namespace ITI_Project.Pages.Departments
             _context = context;
         }
 
+        [BindProperty(SupportsGet = true)]
+        public string? SearchString { get; set; }
+
         public IList<Department> Departments { get; set; } = new List<Department>();
 
         public async Task OnGetAsync()
         {
-            Departments = await _context.Departments.ToListAsync();
+            var query = _context.Departments.AsQueryable();
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                query = query.Where(d => d.Name.Contains(SearchString));
+            }
+
+            Departments = await query.ToListAsync();
         }
     }
 }

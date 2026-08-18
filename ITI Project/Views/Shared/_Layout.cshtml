@@ -1,60 +1,172 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ITI_Project</title>
-    <script type="importmap"></script>
+
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ITI_Project.styles.css" asp-append-version="true" />
+    <script type="importmap"></script>
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ITI_Project</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Index">Employees</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Department" asp-action="Index">Departments</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="JobTitle" asp-action="Index">Job Titles</a>
-    </li>
-   
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-    </li>
-</ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - ITI_Project - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" asp-controller="Home" asp-action="Index">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="M12 7v6l3 3"/></svg>
+                </div>
+                <div class="sidebar-brand-text">ITI</div>
+            </a>
+
+            <hr class="sidebar-divider my-0">
+
+            <!-- Dashboard -->
+            <li class="nav-item @(ViewData["Title"]?.ToString() == "Home Page" ? "active" : "")">
+                <a class="nav-link" asp-controller="Home" asp-action="Index">
+                    <svg class="me-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14l4-4"/><path d="M3 14a9 9 0 0 1 18 0"/></svg>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">Management</div>
+
+            <!-- Employees -->
+            <li class="nav-item @(ViewData["Title"]?.ToString() == "Employees" ? "active" : "")">
+                <a class="nav-link" asp-controller="Employee" asp-action="Index">
+                    <svg class="me-2" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+                    <span>Employees</span>
+                </a>
+            </li>
+
+            <!-- Departments -->
+            <li class="nav-item @(ViewData["Title"]?.ToString() == "Departments" ? "active" : "")">
+                <a class="nav-link" asp-page="/Departments/Index">
+                    <svg class="me-2" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4 21V5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v16h2v-9h3v9h2v2H4z"/><path d="M7 8h2v2H7zm4 0h2v2h-2zM7 12h2v2H7zm4 0h2v2h-2z"/></svg>
+                    <span>Departments</span>
+                </a>
+            </li>
+
+            <!-- Job Titles -->
+            <li class="nav-item @((ViewData["Title"] as string)?.Contains("Job Title") == true ? "active" : "")">
+                <a class="nav-link" asp-controller="JobTitle" asp-action="Index">
+                    <svg class="me-2" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20 6h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zM10 4h4v2h-4V4z"/></svg>
+                    <span>Job Titles</span>
+                </a>
+            </li>
+
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggle -->
+            <div class="text-center d-none d-md-block">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3" type="button">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                    </button>
+
+                    <!-- Topbar Search -->
+                    <form class="d-none d-sm-inline-block my-2 my-md-0 mw-100 navbar-search" asp-controller="Employee" asp-action="Index" method="get" role="search">
+                        <div class="input-group">
+                            <input type="text" name="searchString" class="form-control bg-light border-0 small" placeholder="Search employees..." aria-label="Search employees">
+                            <button class="btn btn-primary" type="submit">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ms-auto">
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow d-flex align-items-center">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="d-none d-lg-inline text-gray-600 small me-2">ITI User</span>
+                                <img class="img-profile rounded-circle" src="~/images/avatar-default.svg" />
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end shadow animated--grow-in" aria-labelledby="userDropdown">
+                                <a class="dropdown-item" asp-controller="Employee" asp-action="Index">
+                                    <svg class="me-2" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/><path d="M1.5 12s4-8 10.5-8 10.5 8-4 12-10.5 8-10.5-4-10.5-12z"/></svg>
+                                    Employees
+                                </a>
+                                <a class="dropdown-item" asp-page="/Departments/Index">
+                                    <svg class="me-2" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M3 13h2v-2H3v2zm0 6h2v-2H3v2zm0-10h2V7H3v2zm6 11h2v-2h-2v2zm0-6h2v-2h-2v2zm0-6v2h2V7h-2zm6 12h2v-2h-2v2zm0-6h2v-2h-2v2zm0-6h2V7h-2v8z"/></svg>
+                                    Departments
+                                </a>
+                                <a class="dropdown-item" asp-controller="JobTitle" asp-action="Index">
+                                    <svg class="me-2" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><rect x="7" y="12" width="2" height="2"/><rect x="11" y="12" width="2" height="2"/><rect x="15" y="12" width="2" height="2"/><rect x="7" y="16" width="2" height="2"/><rect x="11" y="16" width="2" height="2"/><rect x="15" y="16" width="2" height="2"/></svg>
+                                    Job Titles
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" asp-controller="Home" asp-action="Privacy">
+                                    <svg class="me-2" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                                    Privacy Policy
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    @RenderBody()
+                </div>
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; ITI_Project 2026</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
         </div>
-    </footer>
+        <!-- End of Content Wrapper -->
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top -->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+    </a>
+
+    <!-- Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/sb-admin-2.min.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

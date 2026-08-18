@@ -1,8 +1,208 @@
-﻿@{
+﻿@inject ITI_Project.Data.AppDbContext Db
+@{
     ViewData["Title"] = "Home Page";
+
+    var employeeCount = await Db.Employees.CountAsync();
+    var departmentCount = await Db.Departments.CountAsync();
+    var jobTitleCount = await Db.JobTitles.CountAsync();
+    var salaryTotal = await Db.Employees.SumAsync(e => (decimal?)e.Salary) ?? 0;
+
+    var recent = await Db.Employees
+        .Include(e => e.JobTitle)
+        .OrderByDescending(e => e.HireDate)
+        .Take(5)
+        .ToListAsync();
+
+    var deptGroups = await Db.Departments
+        .Select(d => new { d.Name, Count = d.Employees.Count() })
+        .OrderBy(d => d.Name)
+        .ToListAsync();
+
+    var deptNames = System.Text.Json.JsonSerializer.Serialize(deptGroups.Select(d => d.Name));
+    var deptCounts = System.Text.Json.JsonSerializer.Serialize(deptGroups.Select(d => d.Count));
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div id="dashboard" style="font-size:1.5rem;">
+<style>
+    #dashboard .h5 { font-size: 1.5rem; }
+    #dashboard .card-header h6 { font-size: 1.2rem; }
+    #dashboard .text-xs { font-size: 1rem !important; }
+</style>
+
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+    <a asp-controller="Employee" asp-action="Create" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+        <svg class="me-1" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        Add Employee
+    </a>
 </div>
+
+<!-- Content Row -->
+<div class="row">
+
+    <!-- Employees -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Employees</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@employeeCount</div>
+                    </div>
+                    <div class="col-auto">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="text-gray-300"><circle cx="12" cy="12" r="4"/><path d="M1.5 12s4-8 10.5-8 10.5 8-4 12-10.5 8-10.5-4-10.5-12z"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Departments -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Departments</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@departmentCount</div>
+                    </div>
+                    <div class="col-auto">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="text-gray-300"><path d="M3 13h2v-2H3v2zm0 6h2v-2H3v2zm0-10h2V7H3v2zm6 11h2v-2h-2v2zm0-6h2v-2h-2v2zm0-6v2h2V7h-2zm6 12h2v-2h-2v2zm0-6h2v-2h-2v2zm0-6h2V7h-2v8z"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Job Titles -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-info shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Job Titles</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@jobTitleCount</div>
+                    </div>
+                    <div class="col-auto">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="text-gray-300"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><rect x="7" y="12" width="2" height="2"/><rect x="11" y="12" width="2" height="2"/><rect x="15" y="12" width="2" height="2"/><rect x="7" y="16" width="2" height="2"/><rect x="11" y="16" width="2" height="2"/><rect x="15" y="16" width="2" height="2"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Salary -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-warning shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Total Salary</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">EGP @salaryTotal.ToString("N0")</div>
+                    </div>
+                    <div class="col-auto">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="text-gray-300"><circle cx="12" cy="12" r="10"/><path d="M12 7v10M9 9h4a2 2 0 0 1 0 4H9"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Content Row -->
+<div class="row">
+
+    <!-- Employees by Department Chart -->
+    <div class="col-lg-8 mb-4">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Employees by Department</h6>
+            </div>
+            <div class="card-body">
+                <div class="chart-area">
+                    <canvas id="deptChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Employees -->
+    <div class="col-lg-4 mb-4">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Recent Employees</h6>
+            </div>
+            <div class="card-body">
+                @if (recent.Any())
+                {
+                    <div class="list-group">
+                        @foreach (var emp in recent)
+                        {
+                            <div class="list-group-item d-flex align-items-center px-0 border-0">
+                                <div class="me-3 flex-shrink-0">
+                                    @if (!string.IsNullOrEmpty(emp.ProfileImagePath))
+                                    {
+                                        <img src="@emp.ProfileImagePath" alt="@emp.FullName" class="img-profile rounded-circle" />
+                                    }
+                                    else
+                                    {
+                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" class="text-gray-300"><circle cx="12" cy="7.5" r="3.5"/><path d="M4.5 19.5c0-3.5 3-6.5 7.49-6.5h.02c4.5 0 7.49 3 7.49 6.5v1.5a2.5 2.5 0 0 1-2.5 2.5h-9a2.5 2.5 0 0 1-2.5-2.5v-1.5z"/></svg>
+                                    }
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-0 fw-bold" style="font-size:1.3rem; color:#000;">@emp.FullName</h6>
+                                    <div class="small text-gray-600">@(emp.JobTitle?.Title)</div>
+                                </div>
+                                <div class="text-end">
+                                    <span class="small text-gray-600">@emp.HireDate.ToString("d")</span>
+                                </div>
+                            </div>
+                            <hr class="sidebar-divider my-1" />
+                        }
+                    </div>
+                }
+                else
+                {
+                    <p class="text-gray-600 small mb-0">No employees yet.</p>
+                }
+                <a asp-controller="Employee" asp-action="Index" class="btn btn-outline-primary btn-sm mt-3">View All Employees</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var ctx = document.getElementById('deptChart');
+            if (ctx) {
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: @Html.Raw(deptNames),
+                        datasets: [{
+                            label: "Employees",
+                            backgroundColor: "#4e73df",
+                            hoverBackgroundColor: "#224ace",
+                            borderColor: "#4e73df",
+                            data: @Html.Raw(deptCounts)
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        scales: {
+                            x: { grid: { display: false } },
+                            y: { beginAtZero: true, ticks: { precision: 0 } }
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+}

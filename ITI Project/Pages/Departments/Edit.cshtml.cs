@@ -20,7 +20,7 @@ namespace ITI_Project.Pages.Departments
 
         public async Task<IActionResult> OnGetAsync(int id)
         {
-            Department = await _context.Departments.FindAsync(id);
+            Department = await _context.Departments.FindAsync(id)!;
 
             if (Department == null)
             {

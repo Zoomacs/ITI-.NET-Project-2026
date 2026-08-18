@@ -1,27 +1,32 @@
 ﻿@page "{id:int}"
 @model ITI_Project.Pages.Departments.EditModel
 
+@{
+    ViewData["Title"] = "Edit Department";
+}
+
 <h1>Edit Department</h1>
 
-<form method="post">
-
+<form asp-page="Edit" method="post">
     <input type="hidden" asp-for="Department.Id" />
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-    <div class="mb-3">
-        <label asp-for="Department.Name" class="form-label"></label>
-
+    <div class="form-group mb-3">
+        <label asp-for="Department.Name" class="control-label"></label>
         <input asp-for="Department.Name" class="form-control" />
-
-        <span asp-validation-for="Department.Name"
-              class="text-danger"></span>
+        <span asp-validation-for="Department.Name" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">
-        Save
+        <svg class="me-1" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+        Save Changes
     </button>
-
     <a asp-page="Index" class="btn btn-secondary">
-        Back to List
+        <svg class="me-1" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        Cancel
     </a>
-
 </form>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

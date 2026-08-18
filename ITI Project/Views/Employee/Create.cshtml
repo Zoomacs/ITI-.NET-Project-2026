@@ -4,88 +4,130 @@
     ViewData["Title"] = "Create Employee";
 }
 
-<h1>Create Employee</h1>
-
-<form asp-action="Create" method="post" enctype="multipart/form-data">
-
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-    <div class="form-group mb-3">
-        <label asp-for="FullName" class="control-label"></label>
-        <input asp-for="FullName" class="form-control" />
-        <span asp-validation-for="FullName" class="text-danger"></span>
-    </div>
-
-    <div class="form-group mb-3">
-        <label asp-for="Email" class="control-label"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
-
-    <div class="form-group mb-3">
-        <label asp-for="PhoneNumber" class="control-label"></label>
-        <input asp-for="PhoneNumber" class="form-control" />
-        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-    </div>
-
-    <div class="form-group mb-3">
-        <label asp-for="HireDate" class="control-label"></label>
-        <input asp-for="HireDate" class="form-control" />
-        <span asp-validation-for="HireDate" class="text-danger"></span>
-    </div>
-
-    <div class="form-group mb-3">
-        <label asp-for="Salary" class="control-label"></label>
-        <input asp-for="Salary" class="form-control" />
-        <span asp-validation-for="Salary" class="text-danger"></span>
-    </div>
-
-    <div class="form-group mb-3">
-        <label asp-for="DepartmentId" class="control-label">Department</label>
-
-        <select asp-for="DepartmentId"
-                class="form-control"
-                asp-items="@(new SelectList(ViewBag.Departments, "Id", "Name"))">
-            <option value="">-- Select Department --</option>
-        </select>
-
-        <span asp-validation-for="DepartmentId" class="text-danger"></span>
-    </div>
-
-    <div class="form-group mb-3">
-        <label asp-for="JobTitleId" class="control-label">Job Title</label>
-
-        <select asp-for="JobTitleId"
-                class="form-control"
-                asp-items="@(new SelectList(ViewBag.JobTitles, "Id", "Title"))">
-            <option value="">-- Select Job Title --</option>
-        </select>
-
-        <span asp-validation-for="JobTitleId" class="text-danger"></span>
-    </div>
-
-    <!-- Profile Image -->
-    <div class="form-group mb-3">
-        <label class="control-label">Profile Image</label>
-        <input type="file"
-               name="profileImage"
-               class="form-control"
-               accept="image/*" />
-    </div>
-
-    <button type="submit" class="btn btn-primary">
-        Create
-    </button>
-
-    <a asp-controller="Employee"
-       asp-action="Index"
-       class="btn btn-secondary">
-        Cancel
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Create Employee</h1>
+    <a asp-controller="Employee" asp-action="Index" class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm">
+        <svg class="me-1" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Back to List
     </a>
+</div>
 
-</form>
+<div class="row">
+
+    <!-- Form Card -->
+    <div class="col-lg-8">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Employee Information</h6>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create" method="post" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="FullName" class="form-label"></label>
+                                <input asp-for="FullName" class="form-control" placeholder="Enter full name" />
+                                <span asp-validation-for="FullName" class="text-danger small"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="Email" class="form-label"></label>
+                                <input asp-for="Email" class="form-control" placeholder="name@example.com" />
+                                <span asp-validation-for="Email" class="text-danger small"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="PhoneNumber" class="form-label"></label>
+                                <input asp-for="PhoneNumber" class="form-control" placeholder="+20 1xx xxx xxxx" />
+                                <span asp-validation-for="PhoneNumber" class="text-danger small"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="HireDate" class="form-label"></label>
+                                <input asp-for="HireDate" class="form-control" />
+                                <span asp-validation-for="HireDate" class="text-danger small"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="Salary" class="form-label"></label>
+                                <input asp-for="Salary" class="form-control" placeholder="0.00 EGP" />
+                                <span asp-validation-for="Salary" class="text-danger small"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="DepartmentId" class="form-label">Department</label>
+                                <select asp-for="DepartmentId" class="form-select"
+                                        asp-items="@(new SelectList(ViewBag.Departments, "Id", "Name"))">
+                                    <option value="">-- Select Department --</option>
+                                </select>
+                                <span asp-validation-for="DepartmentId" class="text-danger small"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label asp-for="JobTitleId" class="form-label">Job Title</label>
+                        <select asp-for="JobTitleId" class="form-select"
+                                asp-items="@(new SelectList(ViewBag.JobTitles, "Id", "Title"))">
+                            <option value="">-- Select Job Title --</option>
+                        </select>
+                        <span asp-validation-for="JobTitleId" class="text-danger small"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        <svg class="me-1" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                        Create Employee
+                    </button>
+                    <a asp-controller="Employee" asp-action="Index" class="btn btn-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile Image Card -->
+    <div class="col-lg-4">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Profile Photo</h6>
+            </div>
+            <div class="card-body text-center">
+                <img id="imagePreview" src="~/images/avatar-default.svg" alt="Preview"
+                     class="img-profile rounded-circle border mb-3" style="width:120px;height:120px;object-fit:cover;" />
+                <p class="text-gray-600 small mb-3">Upload a profile photo for this employee.</p>
+                <input type="file" name="profileImage" id="profileImage" class="form-control" accept="image/*" onchange="previewImage(event)" />
+            </div>
+        </div>
+    </div>
+</div>
 
 @section Scripts {
+    <script>
+        function previewImage(event) {
+            var input = event.target;
+            var preview = document.getElementById('imagePreview');
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    preview.src = e.target.result;
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
