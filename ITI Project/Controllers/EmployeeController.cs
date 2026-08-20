@@ -11,7 +11,7 @@ namespace ITI_Project.Controllers
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _environment;
 
-        public EmployeeController(AppDbContext context , IWebHostEnvironment environment)
+        public EmployeeController(AppDbContext context, IWebHostEnvironment environment)
         {
             _context = context;
             _environment = environment;
@@ -73,8 +73,8 @@ namespace ITI_Project.Controllers
             return View(employee);
         }
 
-       public async Task<IActionResult> Create()
-       {
+        public async Task<IActionResult> Create()
+        {
             ViewBag.Departments = await _context.Departments.ToListAsync();
             ViewBag.JobTitles = await _context.JobTitles.ToListAsync();
 
@@ -83,34 +83,33 @@ namespace ITI_Project.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Employee employee ,IFormFile? profileImage)
+        public async Task<IActionResult> Create(Employee employee, IFormFile? profileImage)
         {
             if (ModelState.IsValid)
             {
                 if (profileImage != null && profileImage.Length > 0)
-                  {
-                      string uploadsFolder = Path.Combine
-                      (
-                       _environment.WebRootPath,
-                          "images",
-                          "employees"
-                     );
+                {
+                    string uploadsFolder = Path.Combine(_environment.WebRootPath, "images", "employees");
 
-        string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(profileImage.FileName);
+                    // Ensures directory exists before writing file
+                    Directory.CreateDirectory(uploadsFolder);
 
-        string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                    string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(profileImage.FileName);
+                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
-        using (var fileStream = new FileStream(filePath, FileMode.Create))
-        {
-            await profileImage.CopyToAsync(fileStream);
-        }
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await profileImage.CopyToAsync(fileStream);
+                    }
 
-        employee.ProfileImagePath = "/images/employees/" + uniqueFileName;
-    }
-    else
-    {
-        employee.ProfileImagePath = "/images/employees/emp2.svg";
-    }
+                    employee.ProfileImagePath = "/images/employees/" + uniqueFileName;
+                }
+                else
+                {
+                    // Dynamically generates custom colored initials SVG if no image is uploaded
+                    employee.ProfileImagePath = WriteInitialsSvg(GetInitials(employee.FullName));
+                }
+
                 _context.Employees.Add(employee);
                 await _context.SaveChangesAsync();
 
@@ -145,7 +144,8 @@ namespace ITI_Project.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Employee employee, IFormFile? profileImage)        {
+        public async Task<IActionResult> Edit(int id, Employee employee, IFormFile? profileImage)
+        {
             if (id != employee.Id)
             {
                 return NotFound();
@@ -153,66 +153,64 @@ namespace ITI_Project.Controllers
 
             if (ModelState.IsValid)
             {
-            if (profileImage != null && profileImage.Length > 0)
-{
-    string uploadsFolder = Path.Combine(
-        _environment.WebRootPath,
-        "images",
-        "employees"
-    );
-
-    string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(profileImage.FileName);
-
-    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-    using (var fileStream = new FileStream(filePath, FileMode.Create))
-    {
-        await profileImage.CopyToAsync(fileStream);
-    }
-
-    employee.ProfileImagePath = "/images/employees/" + uniqueFileName;
-}
-else
-{
-    var existingEmployee = await _context.Employees.AsNoTracking().FirstOrDefaultAsync(e => e.Id == id);
-
-    bool isInitialsAvatar = existingEmployee != null
-        && !string.IsNullOrEmpty(existingEmployee.ProfileImagePath)
-        && existingEmployee.ProfileImagePath.StartsWith("/images/employees/")
-        && existingEmployee.ProfileImagePath.EndsWith(".svg");
-
-    if (existingEmployee != null
-        && existingEmployee.FullName != employee.FullName
-        && isInitialsAvatar)
-    {
-        string newImagePath = WriteInitialsSvg(GetInitials(employee.FullName));
-
-        if (!string.IsNullOrEmpty(existingEmployee.ProfileImagePath)
-            && existingEmployee.ProfileImagePath != "/images/employees/emp2.svg")
-        {
-            bool usedElsewhere = await _context.Employees
-                .AnyAsync(e => e.Id != id && e.ProfileImagePath == existingEmployee.ProfileImagePath);
-
-            if (!usedElsewhere)
-            {
-                string oldFullPath = Path.Combine(
-                    _environment.WebRootPath,
-                    existingEmployee.ProfileImagePath.TrimStart('/').Replace('/', Path.DirectorySeparatorChar));
-
-                if (System.IO.File.Exists(oldFullPath))
+                if (profileImage != null && profileImage.Length > 0)
                 {
-                    System.IO.File.Delete(oldFullPath);
-                }
-            }
-        }
+                    string uploadsFolder = Path.Combine(_environment.WebRootPath, "images", "employees");
 
-        employee.ProfileImagePath = newImagePath;
-    }
-    else
-    {
-        employee.ProfileImagePath = existingEmployee?.ProfileImagePath;
-    }
-}
+                    Directory.CreateDirectory(uploadsFolder);
+
+                    string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(profileImage.FileName);
+                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await profileImage.CopyToAsync(fileStream);
+                    }
+
+                    employee.ProfileImagePath = "/images/employees/" + uniqueFileName;
+                }
+                else
+                {
+                    var existingEmployee = await _context.Employees.AsNoTracking().FirstOrDefaultAsync(e => e.Id == id);
+
+                    bool isInitialsAvatar = existingEmployee != null
+                        && !string.IsNullOrEmpty(existingEmployee.ProfileImagePath)
+                        && existingEmployee.ProfileImagePath.StartsWith("/images/employees/")
+                        && existingEmployee.ProfileImagePath.EndsWith(".svg");
+
+                    if (existingEmployee != null
+                        && existingEmployee.FullName != employee.FullName
+                        && isInitialsAvatar)
+                    {
+                        string newImagePath = WriteInitialsSvg(GetInitials(employee.FullName));
+
+                        if (!string.IsNullOrEmpty(existingEmployee.ProfileImagePath)
+                            && existingEmployee.ProfileImagePath != "/images/employees/emp2.svg")
+                        {
+                            bool usedElsewhere = await _context.Employees
+                                .AnyAsync(e => e.Id != id && e.ProfileImagePath == existingEmployee.ProfileImagePath);
+
+                            if (!usedElsewhere)
+                            {
+                                string oldFullPath = Path.Combine(
+                                    _environment.WebRootPath,
+                                    existingEmployee.ProfileImagePath.TrimStart('/').Replace('/', Path.DirectorySeparatorChar));
+
+                                if (System.IO.File.Exists(oldFullPath))
+                                {
+                                    System.IO.File.Delete(oldFullPath);
+                                }
+                            }
+                        }
+
+                        employee.ProfileImagePath = newImagePath;
+                    }
+                    else
+                    {
+                        employee.ProfileImagePath = existingEmployee?.ProfileImagePath;
+                    }
+                }
+
                 _context.Employees.Update(employee);
                 await _context.SaveChangesAsync();
 

@@ -224,3 +224,242 @@ C:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Projec
 C:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.csproj.AssemblyReference.cache
 C:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Proj.079AAA45.Up2Date
 C:\Users\Zoomax\Documents\ITI .NET 2026\Project\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\refint\ITI Project.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.pdb
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\appsettings.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.staticwebassets.runtime.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.staticwebassets.endpoints.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.exe
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.deps.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.runtimeconfig.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ITI Project.pdb
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Humanizer.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\System.CodeDom.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.csproj.AssemblyReference.cache
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.AssemblyInfoInputs.cache
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.AssemblyInfo.cs
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.csproj.CoreCompileInputs.cache
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.RazorAssemblyInfo.cache
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.RazorAssemblyInfo.cs
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.sourcelink.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\scopedcss\bundle\ITI Project.styles.css
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\scopedcss\projectbundle\ITI Project.bundle.scp.css
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\oakes5z6yt-{0}-k3dvd93z4e-k3dvd93z4e.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\dv093cgqtx-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\k7m714mc33-{0}-4dkfglgkjq-4dkfglgkjq.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\2s5gytg2f6-{0}-x73kns656g-x73kns656g.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\grevuimr4p-{0}-lgcwkguj27-lgcwkguj27.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\7ktas1f2n0-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\slz285gtoh-{0}-t1cqhe9u97-t1cqhe9u97.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\n6wfmqk2ni-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\1li0ksc9jm-{0}-sejl45xvog-sejl45xvog.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\bksvynbboc-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\rd33ef1h6c-{0}-xvp3kq03qx-xvp3kq03qx.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\tlddbr7zoe-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\3nzcwo97cv-{0}-22vffe00uq-22vffe00uq.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\fwl60tmgmi-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\icx2lk3duq-{0}-qesaa3a1fm-qesaa3a1fm.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\aop4lo9jdz-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\7x2oqt6uow-{0}-tmc1g35s3z-tmc1g35s3z.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\g0hnu8t0fr-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\t29t5voqb6-{0}-rxsg74s51o-rxsg74s51o.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\2p2v4ikf5d-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\i0yhqrurkj-{0}-q9ht133ko3-q9ht133ko3.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\k4jyuonq6z-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\5tcxghypa7-{0}-gye83jo8yx-gye83jo8yx.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\woyy45a0mg-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\kz98hqhlyn-{0}-wl58j5mj3v-wl58j5mj3v.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\u4fnvigqp2-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\8ltny92z8e-{0}-d4r6k3f320-d4r6k3f320.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\eyvkei0a7c-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\siyp47d0yc-{0}-keugtjm085-keugtjm085.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\ds6lkojonk-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\yivfdsdzkm-{0}-zub09dkrxp-zub09dkrxp.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\16v71xopp6-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\cg3pmz4lr4-{0}-43atpzeawx-43atpzeawx.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\f4y7wxcn80-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\y54fg3h1fs-{0}-ynyaa8k90p-ynyaa8k90p.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\sbs8sbpl1l-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\7pc8b1p2wk-{0}-c63t5i9ira-c63t5i9ira.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\ox1ec8px0x-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\9fa83bh1ta-{0}-4094rpi4f9-4094rpi4f9.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\bb07emflf3-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\gzzwt2qgv6-{0}-hd3gran6i8-hd3gran6i8.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\dsoy9907wh-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\14eufkdudq-{0}-ltid2c489k-ltid2c489k.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\sj7w725zql-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\5dbz3f455r-{0}-8vyfqsqgz1-8vyfqsqgz1.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\v3hyz12fkh-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\yyr3qbt6h9-{0}-u9q1upor1n-u9q1upor1n.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\gsayxwsr0i-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\1y6gks3oyb-{0}-4d85u1mtcx-4d85u1mtcx.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\6tz0fqbzj5-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\d0mh9s2znp-{0}-03hjc8e09r-03hjc8e09r.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\4cey6tozqn-{0}-48y08845bh-48y08845bh.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\xd88203lxx-{0}-356vix0kms-356vix0kms.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\7ap9lvvjnu-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\vyl84bfg1l-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\vnol77zrev-{0}-worgj0nhwm-worgj0nhwm.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\fda2exv6yd-{0}-gk0pw8i4co-gk0pw8i4co.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\tqwfy3iws8-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\gmy3ln7siq-{0}-d6nrnj6jjx-d6nrnj6jjx.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\y8wehzyk09-{0}-m9qm4tazc0-m9qm4tazc0.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\77a24cdunk-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\oomnbm0mde-{0}-jjsuc0puko-jjsuc0puko.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\oam9gzqg57-{0}-9vr69e8ynj-9vr69e8ynj.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\3ja5m3n751-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\i7c5c9i2rv-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\8w807a7xkc-{0}-7b8wb44odl-7b8wb44odl.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\royncwa8td-{0}-7b8wb44odl-7b8wb44odl.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Proj.079AAA45.Up2Date
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ITI Project.genruntimeconfig.cache
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\ref\ITI Project.dll
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\fr6jv4dquk-{0}-z7hwc2bzfb-z7hwc2bzfb.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\nqv3igmhky-{0}-x73kns656g-x73kns656g.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\6p2awz52p0-{0}-qzfrv7mldh-qzfrv7mldh.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\chc1k67a1d-{0}-yedz22bjj1-yedz22bjj1.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\bmui9tzwev-{0}-d79y4hzfiw-d79y4hzfiw.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\jujtxohtb3-{0}-my7szycv8b-my7szycv8b.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\tpglhj8far-{0}-klg1zxiriv-klg1zxiriv.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\5e95hekoi3-{0}-64ouy3r8tj-64ouy3r8tj.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\gehr1lk2bl-{0}-45u8nqr4oj-45u8nqr4oj.gz
+C:\Users\Mohammah Farag\source\repos\Zoomacs\ITI-.NET-Project-2026\ITI Project\obj\Debug\net10.0\compressed\nr1othmasu-{0}-x6ako5gae5-x6ako5gae5.gz
